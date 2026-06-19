@@ -1,7 +1,5 @@
 # Quête Les logs
 
-TP réalisé sur VM Ubuntu 24 LTS avec Apache 2.4.
-
 ## Ton serveur web est correctement configuré et génère des logs
 
 Installation : `sudo apt install apache2 -y`
