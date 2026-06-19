@@ -6,11 +6,14 @@ TP réalisé sur VM Ubuntu 24 LTS avec Apache 2.4.
 
 Installation : `sudo apt install apache2 -y`
 
-![Apache actif](screenshots/01-apache-status.png)
+<img width="805" height="387" alt="image" src="https://github.com/user-attachments/assets/76735eed-be6d-401c-a885-03ab24b390be" />
+
+
 
 Après génération de trafic avec `curl` (requêtes vers la home + URLs inexistantes), l'analyse des logs avec `grep`, `awk` et `sort` donne **298 requêtes 200**, **4 erreurs 404** et **127.0.0.1** comme IP principale (trafic en localhost).
 
-![Analyse des logs](screenshots/04-analyse-finale.png)
+<img width="806" height="379" alt="image" src="https://github.com/user-attachments/assets/3001594e-4275-4382-96fc-dea6a437e036" />
+
 
 ## Tu peux expliquer la structure des logs de ton serveur web
 
