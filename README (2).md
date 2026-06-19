@@ -1,4 +1,4 @@
-# Quête — Les logs
+# Quête Les logs
 
 TP réalisé sur VM Ubuntu 24 LTS avec Apache 2.4.
 
